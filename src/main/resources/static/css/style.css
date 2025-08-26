@@ -15,13 +15,13 @@ body {
 
 .logotipo {
     display: inline-block;
-    width: 4rem;
+    width: 6rem;
     height: auto;
 }
 
 body {
     background-color: #1ABC9C;
-    background-image: url('../img/pettour-background.jpg'); /* coloque sua imagem em static/img */
+    background-image: url('../img/background.png'); /* coloque sua imagem em static/img */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,7 +51,12 @@ a:hover {
     border-radius: 50%;
 }
 
-.navbar,
+.navbar {
+    background-color: #1ABC9C; /* turquesa PetTour */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1.1rem;
+}
+
 .dropdown-menu {
     font-size: 1.2rem;
 }
@@ -59,6 +64,8 @@ a:hover {
 .navbar-toggler {
     background-color: #F39C12; /* laranja PetTour */
     border-color: #1ABC9C;     /* detalhe turquesa */
+   
+
 }
 
 
@@ -69,8 +76,8 @@ a:hover {
 
 .topbanner {
     background-attachment: fixed;
-    background-color: #2C3E50;
-    background-image: url('../img/pettour-banner.jpg');
+    background-color: #fcfcfc;
+    background-image: url('../img/background.png');
     background-position: center;
     background-size: cover;
 }
@@ -136,7 +143,7 @@ a:hover {
 }
 
 .content {
-    background-image: url('../img/bg-site.jpg');
+    background-image: url('../img/background.png');
 }
 
 .card-container {
@@ -153,7 +160,8 @@ a:hover {
     border-radius: 16px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     cursor: pointer;
-    width: 330px;
+ 
+ 
     overflow: hidden;
 }
 
